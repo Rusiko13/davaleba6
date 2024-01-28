@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Ruslan Display';
+    src: url(../fonts/RuslanDisplay.eot');
+    src: url(../fonts/'RuslanDisplay.eot?#iefix') format('embedded-opentype'),
+        url(../fonts/'RuslanDisplay.woff2') format('woff2'),
+        url(../fonts/'RuslanDisplay.woff') format('woff'),
+        url(../fonts/'RuslanDisplay.svg#RuslanDisplay') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Ruslan+Display&display=swap");
+html {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, #021b79, #0575e6);
+  overflow: hidden;
+}
+.title {
+  font-family: "Ruslan Display";
+  color: #ffcc56;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 30px;
+  animation: bigTitle 3s infinite alternate;
+}
+.spiderman {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.image {
+  width: 350px;
+  margin-top: -60px;
+  animation: spider infinite 3s  alternate;
+}
+
+@keyframes spider {
+  from {
+    translate: 0 -100%;
+  }
+  to {
+    translate: 0;
+  }
+}
+.shadow {
+  width: 110px;
+  height: 80px;
+  background-color: black;
+  border-radius: 50%;
+  margin-right: 20px;
+  animation: spiderManShadow 3s  infinite alternate;
+}
+@keyframes spiderManShadow {
+  0% {
+    opacity: 1;
+    scale: 0.1;
+  }
+  /* 25% {opacity: 0.9;
+    scale: 0.3
+  }
+  50% { opacity: 0.8;
+    scale: 0.5
+  }
+  75% { opacity: 0.7;
+    scale: 0.8
+  } */
+  100% {
+    opacity: 0.6;
+    scale: 1;
+  }
+}
+@keyframes bigTitle{
+ 
+to{
+ font-size: 50px;
+}
+}
